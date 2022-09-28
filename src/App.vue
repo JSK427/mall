@@ -3,5 +3,5 @@
 </template>
 
 <style lang="less">
-@import url(./assets/csss/base.css);
+@import url(assets/css/base.css);
 </style>
