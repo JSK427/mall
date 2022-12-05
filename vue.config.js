@@ -1,4 +1,12 @@
 const { defineConfig } = require("@vue/cli-service");
+const prodDir = "data-view";
+const prodSetting =
+  process.env.NODE_ENV === "production"
+    ? {
+        publicPath: `/${prodDir}`,
+        outputDir: `${prodDir}`,
+      }
+    : {};
 module.exports = defineConfig({
   transpileDependencies: true,
   //配置webpack config
@@ -17,4 +25,6 @@ module.exports = defineConfig({
       },
     },
   },
+  productionSourceMap: false,
+  ...prodSetting,
 });
