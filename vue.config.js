@@ -17,8 +17,7 @@ module.exports = defineConfig({
       },
     },
   },
-  transpileDependencies: true,
-  publicPath: "/mall", //gitee远程库名
+  publicPath: "/mall/", //github远程库名
   outputDir: "dist/",
   assetsDir: "static/",
 });
