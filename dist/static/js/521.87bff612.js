@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkmall"]=self["webpackChunkmall"]||[]).push([[521],{1521:function(e,n,l){l.r(n),l.d(n,{default:function(){return c}});var u=function(){var e=this;e._self._c;return e._m(0)},r=[function(){var e=this,n=e._self._c;return n("div",[n("h2",[e._v("个人")])])}],t={name:"Profile"},f=t,s=l(1001),a=(0,s.Z)(f,u,r,!1,null,"5500eee2",null),c=a.exports}}]);
-//# sourceMappingURL=521.5ba27397.js.map
+//# sourceMappingURL=521.87bff612.js.map
