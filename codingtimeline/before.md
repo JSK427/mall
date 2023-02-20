@@ -19,7 +19,7 @@
 - normalize.css 对属性进行重置（引入到 base 中）
 - base.css 自定义的样式
   - :root 获取根元素
-  - --color-text css 中定义变量（学习使用 less、sess)
+  - --color-text css 中定义变量（学习使用 less、sass)
 
 ### 配置路径别名
 
